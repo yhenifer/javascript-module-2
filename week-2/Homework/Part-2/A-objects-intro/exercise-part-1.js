@@ -16,4 +16,46 @@ var car = {
 };
 
 */
+const asus = {
+    model: "vivobook",
+    Color: "gaia",
+    brand: "ordenador",
+    año: 2021,
+};
+
+const samsung = {
+    model: "A7",
+    Color: "blanco",
+    brand: "movil",
+    año: 2021,
+    memoriaGb: "124gb",
+    
+};
+
+const Volvo = {
+    modelo: "2007",
+    Color: "Negro",
+    brand: "carro",
+    plazas: 7,
+    itv: true,
+    Pegatina: "B",
+   
+};
+
+const silla = {
+    modelo: "Reclinable",
+    Color: "Azul",
+    Material: "aluminio",
+    Caregoria: "muebles  de jardin ",
+};
+
+const bike = {
+    modelo: "bikemontaña",
+    Color: "naranja",
+    Material: "marco de Carbono",
+    Caregoria: "semi profecional ",
+    Grupo: "shimano",
+    Plato: "16 velocidades"
+
+};
 

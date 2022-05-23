@@ -15,5 +15,7 @@ let person = {
         this.age = this.age + 1;
     } 
 };
+
+person.changeAddress("Hernadez")
 console.log(person.currentAddress);
-console.log(person.name);
+console.log(person.age);

@@ -1,4 +1,19 @@
-function setAlarm() {}
+function setAlarm() {
+  tiempo = document.querySelector('#alarmSet').value
+ const timeRemaining = document.querySelector('#timeRemaining')
+ timeRemaining.textContent = 'Time Remaining: 00:' +tiempo;
+
+ const intervalId = setInterval(() => {
+  tiempo = tiempo - 1;
+   console.log(tiempo);
+   timeRemaining.textContent = 'Time Remaining: 00:' +tiempo;
+   if (tiempo === 0) {
+     clearInterval(intervalId)
+     playAlarm()
+   }
+ }, 1000)
+}
+
 
 // DO NOT EDIT BELOW HERE
 

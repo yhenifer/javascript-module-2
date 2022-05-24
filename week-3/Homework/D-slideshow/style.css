@@ -1,1 +1,64 @@
 /** Write your CSS in here **/
+h1 {
+    size: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(214, 227, 227);
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgb(186, 27, 197);
+}
+
+body {
+    background: rgb(222, 223, 213);
+    background: linear-gradient(90deg, rgb(151, 54, 111) 0%, rgb(188, 145, 181) 12%, rgb(238, 234, 241) 100%);
+}
+
+#autoBackBtn {
+    background-color: rgb(202, 15, 43);
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 6px;
+    margin-right: 0px;
+    margin-left: 3px;
+}
+
+#anteriorBtn {
+    background-color:  rgb(202, 15, 43);
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top:3px;
+    margin-right: 0px;
+}   
+
+#stopBtn {
+    background-color: rgb(202, 15, 43);
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    margin-top: 3x;
+    margin-right: 0px;
+}
+
+#siguienteBtn {
+    background-color:  rgb(202, 15, 43);
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 3px;
+    margin-right: 0px;
+}
+
+#autoNextBtn {
+    background-color:  rgb(202, 15, 43);
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 3px;
+}
+
+#contenedor {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#imgPets {
+    width: 500px;
+}
